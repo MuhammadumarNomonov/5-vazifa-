@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+  android:columnCount="4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:text="AC"
+        android:backgroundTint="#454545"
+        />
+    <Button
+
+        android:text="+/-"
+        android:backgroundTint="#494848"
+        />
+    <Button
+    android:text="%"
+        android:backgroundTint="#454444"
+
+    />
+    <Button
+    android:text="÷"
+        android:backgroundTint="#F2410A"
+    />
+    <Button
+    android:text="7"
+        android:backgroundTint="#403D3D"
+    />
+    <Button
+    android:text="8"
+        android:backgroundTint="#3E3C3C"
+    />
+    <Button
+    android:text="9"
+        android:backgroundTint="#3E3C3C"
+    />
+    <Button
+    android:text="*"
+        android:backgroundTint="#EF410A"
+    />
+    <Button
+        android:text="4"
+        android:backgroundTint="#403D3D"
+        />
+    <Button
+    android:text="5"
+        android:backgroundTint="#4B4949"
+    />
+    <Button
+    android:text="6"
+        android:backgroundTint="#454444"
+    />
+    <Button
+        android:text="-"
+        android:backgroundTint="#E63A05"
+        />
+    <Button
+        android:text="1"
+        android:backgroundTint="#454444"
+        />
+    <Button
+        android:text="2"
+        android:backgroundTint="#454444"
+        />
+    <Button
+        android:text="3"
+        android:backgroundTint="#454444"
+        />
+    <Button
+        android:text="+"
+        android:backgroundTint="#DC3C09"
+        />
+
+    <Button
+        android:layout_width="173dp"
+        android:layout_columnSpan="2"
+        android:backgroundTint="#565555"
+        android:text="0" />
+    <Button
+        android:text="."
+        android:backgroundTint="#454444"
+        />
+    <Button
+        android:text="="
+        android:backgroundTint="#E23C08"
+        />
+
+
+</GridLayout>
